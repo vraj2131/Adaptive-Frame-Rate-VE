@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+.env
+.envrc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs and checkpoints (keep logs/ results tracked)
+# checkpoints remain ignored
+checkpoints/
+
+# Model files (large)
+models/
+*.pt
+*.pth
+*.onnx
+
+# OS / misc
+.DS_Store
+Thumbs.db
+.cache/
+
+# Results (allow tracking)
+!logs/
+!plots/
+!metrics_summary.json

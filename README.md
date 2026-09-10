@@ -1,7 +1,5 @@
 ### Adaptive Frame Rate Engine (AFRE)
 
-[![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](https://www.python.org/)
-[![PyTorch](https://img.shields.io/badge/Framework-PyTorch-red)](https://pytorch.org/)
 
 AFRE dynamically adapts precision, resolution, and frame interval to maximize throughput while keeping accuracy high for medical imaging workloads (e.g., CT frames). It logs per-frame metrics and provides analytics and plots.
 
